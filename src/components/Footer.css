@@ -1,0 +1,38 @@
+.footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 2rem 0;
+  margin-top: auto;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.social-links a {
+  color: white;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.social-links a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .footer .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .social-links {
+    margin-top: 1rem;
+  }
+}

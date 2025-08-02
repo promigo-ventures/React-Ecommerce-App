@@ -1,0 +1,27 @@
+.checkout-page {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.checkout-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.total {
+  text-align: right;
+  margin-top: 2rem;
+  padding: 1rem;
+  background: var(--light-gray);
+  border-radius: 8px;
+}
+
+.checkout-btn {
+  background: var(--accent-color);
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+}
